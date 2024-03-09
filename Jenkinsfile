@@ -18,6 +18,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'deploy'
+                sh 'this_command_give_an_error'
             }
         }
     }
